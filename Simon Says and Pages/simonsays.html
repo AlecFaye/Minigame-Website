@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- Code sourced from: https://code.sololearn.com/W07CA52wuayc/#html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Prebuilt Layout</title>
+    <link rel="stylesheet" href="simonsays.css">
+	<script src="simonsays.js"></script>
+    <!-- Bootstrap -->
+    <link href="./bootstrap-4.4.1.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <a class="navbar-brand" href="#"> <img src="Asset 4@3x-8.png" alt="logo" style="margin-left: 40px; margin-top: 10px; margin-bottom: 10px; width: 200px;"></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+             </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Action</a>
+                   <a class="dropdown-item" href="#">Another action</a>
+                   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+             </li>
+          </ul>
+		   <!--
+          <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+-->
+       </div>
+    </nav>
+	  <div class="container">
+	  <div id="gamebox">
+		<h1> Press the red button to start the game </h1>
+		  <br>
+        <div id="board">
+			<br>
+            <div class="key" id="green"></div>
+            <div class="key" id="red"></div>
+            <div class="key" id="yellow"></div>
+            <div class="key" id="blue"></div>
+            
+            <div id="innerCircle">
+                <div id="start">
+                    <p id="simon">Simon <br> Says</p>
+                    <span id="score">0</span>
+                    <span id="onOff" onclick="toggleGame()"></span>
+                </div>
+            </div>
+        </div>
+        <!--<button onclick="this.style.borderColor == 'green' ? this.style.borderColor = 'red' : this.style.borderColor = 'green'">
+        </button>-->
+		  </div>
+		  </div>
+<footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <a href="#"> <img src="Asset 4@3x-8.png" alt="logo" style="margin-top: 10px; margin-bottom: 10px; width: 200px;"></a>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="#">One-player Games</a></li>
+              <li><a href="#">Two-Player Games</a></li>
+			  <li><a href="#">High Scores</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">How-to</a></li>
+              <li><a href="#">Coffee</a></li>
+            </ul>
+          </div>
+        </div>
+        <br>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by AABC Games.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+  </body>
+</html>

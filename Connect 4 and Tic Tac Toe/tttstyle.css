@@ -1,0 +1,68 @@
+h1 {
+  background-color: burlywood;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+}
+
+span {
+  text-align: center;
+}
+
+.gamecontainer {
+  background-color: burlywood;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 450px;
+  height: 450px;
+}
+
+.square {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 4px solid black;
+  transition: background 0.1s;
+}
+
+.occupied {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 4px solid black;
+}
+
+.square:hover {
+  cursor: pointer;
+  background: #ddffdd;
+}
+
+
+#sq1, #sq2, #sq3 {
+  border-top: none;
+}
+#sq3, #sq6, #sq9 {
+  border-right: none;
+}
+#sq7, #sq8, #sq9 {
+  border-bottom: none;
+}
+#sq1, #sq4, #sq7 {
+  border-left: none;
+}

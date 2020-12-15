@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.navbar-nav {
+    float:none;
+    margin:20px auto;
+    display: block;
+    text-align: center;
+
+}
+.navbar{
+	background-image: url("black-blocks-background_M1XPn2vu.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-colour: #222222;
+	background-blend-mode: multiply;
+}
+
+a.navbar-brand {
+	
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 1px solid #3FFF5A;
+	border-radius: 5px;
+	background-color: #222222;
+}
+
+.container{
+	background-color: #222222;
+}
+
+.jumbotron{
+	max-width: 1140px;
+	max-height: 500px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	background-color: #222222;
+	color: #3FFF5A;
+	
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    <link href="./bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="./gamespage.css" rel="stylesheet">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <a class="navbar-brand" href="#"> <img src="Asset 4@3x-8.png" alt="logo" style="margin-left: 40px; margin-top: 10px; margin-bottom: 10px; width: 200px;"></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+             </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="#">Action</a>
+                   <a class="dropdown-item" href="#">Another action</a>
+                   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+             </li>
+          </ul>
+		   <!--
+          <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+-->
+       </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center">
+	
+       <h1 class="display-4">Some Catchy Title</h1>
+       	<!--
+		<p class="lead">Easily build your page using the Bootstrap components from the Insert panel.</p>
+
+       <hr class="my-4">
+		
+       <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+       <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+       </p>
+-->
+    </div>
+    <div id="game" class="container">
+       <!--<srcipt type="text/javascript" src="simonsays.js" async></srcipt>-->
+		<script>$("#game").load("simonsays.html");</script>
+       </div>
+       <br>
+       <hr>
+		<!--
+       <div class="row">
+          <div class="text-center col-lg-6 offset-lg-3">
+             <h4>Footer </h4>
+             <p>Copyright &copy; 2019 &middot; All Rights Reserved &middot; <a href="#" >My Website</a></p>
+          </div>
+       </div>
+    </div> -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <!-- <script src="Bethany/Bethany/js/jquery-3.4.1.min.js"></script> -->
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <!-- <script src="Bethany/Bethany/js/popper.min.js"></script>
+    <script src="Bethany/Bethany/js/bootstrap-4.4.1.js"></script> -->
+	  <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <a href="#"> <img src="Asset 4@3x-8.png" alt="logo" style="margin-top: 10px; margin-bottom: 10px; width: 200px;"></a>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="#">One-player Games</a></li>
+              <li><a href="#">Two-Player Games</a></li>
+			  <li><a href="#">High Scores</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">How-to</a></li>
+              <li><a href="#">Coffee</a></li>
+            </ul>
+          </div>
+        </div>
+        <br>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by AABC Games.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+  </body>
+</html>
